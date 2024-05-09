@@ -7,6 +7,7 @@ import {
 import { Button } from "./ui/button";
 import Link from "next/link";
 import { Download, Send } from "lucide-react";
+import Socials from "./Socials";
 
 const Hero = () => {
   return (
@@ -36,6 +37,7 @@ const Hero = () => {
             </div>
 
             {/* social  */}
+            <Socials />
           </div>
 
           {/* image */}
